@@ -5,6 +5,7 @@ TODO: Description
 ## Dependencies
 
 - [python3](https://www.python.org/downloads) version 3.9 up to 3.12.
+- [Ape Framework](https://github.com/ApeWorX/ape) 0.8.0+
 
 ## Installation
 
@@ -13,7 +14,7 @@ TODO: Description
 You can install the latest release via [`pip`](https://pypi.org/project/pip/):
 
 ```bash
-pip install <PYPI_NAME>
+pip install ape-ronin
 ```
 
 ### via `setuptools`
@@ -21,9 +22,9 @@ pip install <PYPI_NAME>
 You can clone the repository and use [`setuptools`](https://github.com/pypa/setuptools) for the most up-to-date version:
 
 ```bash
-git clone https://github.com/ApeWorX/<PYPI_NAME>.git
-cd <PYPI_NAME>
-python3 setup.py install
+git clone https://github.com/freakitties/ape-ronin.git
+cd ape-ronin
+python3 setup.py install or pip install .
 ```
 
 ## Quick Usage
